@@ -13,6 +13,7 @@ const Parent = () => {
 
   return (
     <div>
+      <h1>Parent Component</h1>
       {!isLoggedIn ? (
         <div>
           <label htmlFor="">Username:</label>
